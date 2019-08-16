@@ -1,16 +1,22 @@
-# hamon
+# Hamon App
 
-A new Flutter application.
+Simple Flutter app that consumes API hosted at http://hamon-interviewapi.herokuapp.com.
+Developed as a part of screening test of Hamon Technologies
 
-## Getting Started
+![Alt text](/screanshots/Screenshot%202019-08-17%20at%201.27.06%20AM.png "Optional Title")
 
-This project is a starting point for a Flutter application.
+### [APK](build/app/outputs/apk/app.apk)
 
-A few resources to get you started if this is your first Flutter project:
+### [Screanshots](screanshots/)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### To continue developing this
+1. goto  http://hamon-interviewapi.herokuapp.com
+2. Register your email address
+3. get api_key
+4. Paste it [here](/lib/ApiCredentials.dart)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
+```dart
+  String apiKey = 'YOUR API KEY';
+  
+```
